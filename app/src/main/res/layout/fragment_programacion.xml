@@ -1,0 +1,424 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.edu.isistemas.umariana.caciedapp.ProgramacionFragment"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:src="@drawable/logoppal"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"/>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1f3d96"
+        android:textColor="#ffffff"
+        android:text=" Miercoles 1 de Noviembre      07:30 - 09:00"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:paddingLeft="13dp"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif"
+        android:text="Registro \nHall Universidad Mariana"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1f3d96"
+            android:textColor="#ffffff"
+            android:text=" Miercoles 1 de noviembre      09:00 - 10:00"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingLeft="13dp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:text="Inauguración \nAuditorio Madre Caridad"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1f3d96"
+            android:textColor="#ffffff"
+            android:text=" Miercoles 1 de noviembre      10:00 - 10:30"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingLeft="13dp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:text="Refrigerio"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1f3d96"
+            android:textColor="#ffffff"
+            android:text=" Miercoles 1 de noviembre      10:30 - 12:00"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingLeft="13dp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:text="Manuel Ortega Cantero \nEscuela Superior de Informática de Ciudad Real \nAuditorio Madre Caridad"/>
+
+        
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1f3d96"
+            android:textColor="#ffffff"
+            android:text=" Miercoles 1 de noviembre      14:00 - 16:00"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:paddingLeft="13dp"
+                android:textColor="#000000"
+                android:fontFamily="sans-serif"
+                android:text="Ponencias Grupo 1 \nAuditorio Madre Caridad"/>
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:paddingLeft="13dp"
+                android:textColor="#000000"
+                android:fontFamily="sans-serif"
+                android:text="Ponencias Grupo 2 \nAuditorio Jesús de Nazareth"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1f3d96"
+            android:textColor="#ffffff"
+            android:text=" Miercoles 1 de noviembre      16:00 - 16:30"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingLeft="13dp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:text="Refrigerio"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1f3d96"
+            android:textColor="#ffffff"
+            android:text=" Miercoles 1 de noviembre      16:30 - 18:00"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingLeft="13dp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:text="Ponencias Grupo 3 \nAuditorio Madre Caridad"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingLeft="13dp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:text="Ponencias Grupo 4 \nAuditorio Jesús de Nazareth"/>
+
+    </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="#eae0e0"
+            android:text="  "
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#23aea7"
+            android:textColor="#ffffff"
+            android:text=" Jueves 2 de noviembre      08:00 - 10:00"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingLeft="13dp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:text="Ponencias Grupo 5 \nAuditorio San Francisco 1"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingLeft="13dp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:text="Ponencias Grupo 6 \nAuditorio San Francisco 2"/>
+
+    </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#23aea7"
+            android:textColor="#ffffff"
+            android:text=" Jueves 2 de noviembre      10:00 - 10:30"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingLeft="13dp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:text="Refrigerio"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#23aea7"
+            android:textColor="#ffffff"
+            android:text=" Jueves 2 de noviembre      10:30 - 12:00"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingLeft="13dp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:text="Luis Eduardo Peláez Valencia \nUniversidad Católica de Pereira \nAuditorio San Francisco"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#23aea7"
+            android:textColor="#ffffff"
+            android:text=" Jueves 2 de noviembre      14:00 - 16:00"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingLeft="13dp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:text="Ponencias Grupo 7 \nAuditorio San Francisco 1"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingLeft="13dp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:text="Ponencias Grupo 8 \nAuditorio San Francisco 2"/>
+
+    </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#23aea7"
+            android:textColor="#ffffff"
+            android:text=" Jueves 2 de noviembre      16:00 - 16:30"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingLeft="13dp"
+            android:textColor="#000000"
+            android:text="Refrigerio"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#23aea7"
+            android:textColor="#ffffff"
+            android:text=" Jueves 2 de noviembre      16:30 - 18:00"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingLeft="13dp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:text="Juan Sossa  \nPSL \nAuditorio San Francisco"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#23aea7"
+            android:textColor="#ffffff"
+            android:text=" Jueves 2 de noviembre      18:00 - 19:00"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingLeft="13dp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:text="Coctel Bienvenida \nHall del Edificio San Francisco"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#23aea7"
+            android:textColor="#ffffff"
+            android:text=" Jueves 2 de noviembre      19:00 - 21:00"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingLeft="13dp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:text="Presentación de Póster \nHall del Edificio San Francisco"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="#eae0e0"
+            android:text="  "
+            />
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1f3d96"
+            android:textColor="#ffffff"
+            android:text="  Viernes 3 de Noviembre      08:00 - 10:00"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingLeft="13dp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:text="Hugo Ordoñez \nAuditorio Luis Santander"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1f3d96"
+            android:textColor="#ffffff"
+            android:text=" Viernes 3 de noviembre      10:00 - 10:30"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingLeft="13dp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:text="Refrigerio"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1f3d96"
+            android:textColor="#ffffff"
+            android:text=" Viernes 3 de noviembre      10:30 - 12:00"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingLeft="13dp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:text="Jorge Villalobos Salcedo \nAuditorio Luis Santander"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="#eae0e0"
+            android:text="  "
+            />
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>
